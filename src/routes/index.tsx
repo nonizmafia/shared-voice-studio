@@ -12,8 +12,8 @@ import journey4 from "@/assets/patient-journey-4.jpg.asset.json";
 import journey5 from "@/assets/patient-journey-5.jpg.asset.json";
 import journey6 from "@/assets/patient-journey-6.jpg.asset.json";
 import tanjaImage from "@/assets/tanja-before-after.png.asset.json";
-import logo from "@/assets/vox-care-logo-cropped.png.asset.json";
-import logoDark from "@/assets/vox-care-logo-dark.png.asset.json";
+import logo from "@/assets/vox-care-logo-cropped-2026.png.asset.json";
+import deviceImage from "@/assets/vox-rd-prototype.png.asset.json";
 import heroImage from "@/assets/vox-hero-clinical.png.asset.json";
 import { Button } from "@/components/ui/button";
 import {
@@ -145,7 +145,9 @@ function Index() {
       <header className="sticky top-0 z-50 border-b border-border/80 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
           <a href="#top" aria-label="VOX Care home" className="block">
-            <img src={logoDark.url} alt="VOX Care" className="h-12 w-auto max-w-40 object-contain object-left sm:h-14" />
+            <span className="flex h-14 w-44 items-center overflow-hidden bg-ink px-2 sm:w-52">
+              <img src={logo.url} alt="VOX Care" className="w-full object-contain" />
+            </span>
           </a>
           <div className="flex items-center gap-3 sm:gap-6">
             <a href="mailto:voxhealthcaree@gmail.com" className="hidden text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:block">
@@ -193,6 +195,43 @@ function Index() {
             <div className="border-t border-border pt-6">
               <h3 className="mb-3 text-xl font-bold text-foreground">The solution</h3>
               <p>VOX is a non-profit initiative developing a device that restores a person&apos;s own natural voice using the latest voice technology, so when they speak again, it sounds like them — not a machine.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-ink py-24 text-background sm:py-32">
+          <div className="mx-auto max-w-7xl px-5 sm:px-8">
+            <div className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+              <figure>
+                <div className="relative overflow-hidden rounded-[4px] bg-background">
+                  <img
+                    src={deviceImage.url}
+                    alt="Open VOX wearable voice restoration prototype showing its electronics during research and development"
+                    className="aspect-square w-full object-cover"
+                    loading="lazy"
+                  />
+                  <figcaption className="absolute left-4 top-4 bg-ink px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-cyan">
+                    R&amp;D prototype · Not yet a medical product
+                  </figcaption>
+                </div>
+              </figure>
+              <div>
+                <p className="mb-5 text-xs font-bold uppercase tracking-[0.18em] text-cyan">02 — What we are building</p>
+                <h2 className="max-w-xl text-4xl font-bold leading-tight sm:text-6xl">A wearable voice for life after cancer.</h2>
+                <p className="mt-6 text-lg leading-8 text-background/80">
+                  This is the VOX research prototype: a wearable device being developed for people whose voice box was removed during cancer treatment. It is designed to sense the vibrations and movements made when a person tries to speak, then turn them into audible speech.
+                </p>
+                <p className="mt-5 text-lg leading-8 text-background/80">
+                  Our aim is to move beyond the mechanical sound of current aids. With consented samples of a patient&apos;s earlier voice, future versions are intended to create speech that feels more natural, personal and recognisably theirs — helping conversations feel easier and restoring confidence, independence and connection.
+                </p>
+                <div className="mt-8 border-l-2 border-cyan pl-5">
+                  <p className="text-xl font-semibold leading-8 text-background">Your support helps turn this working prototype into a safe, reliable device ready for patient studies.</p>
+                  <p className="mt-3 text-sm leading-6 text-background/60">Funds support hardware refinement, voice technology, safety work and supervised testing. The device remains under active research and development.</p>
+                </div>
+                <Button asChild className="mt-8 h-12 rounded-none bg-cyan px-6 text-ink shadow-none hover:bg-background">
+                  <a href="#donate">Help build the next voice <ArrowRight /></a>
+                </Button>
+              </div>
             </div>
           </div>
         </section>
@@ -336,7 +375,9 @@ function Index() {
       <footer className="bg-ink py-14 text-background">
         <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 sm:px-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <img src={logo.url} alt="VOX Care" className="h-12 w-auto max-w-48 object-contain object-left" />
+            <span className="flex h-14 w-52 items-center overflow-hidden">
+              <img src={logo.url} alt="VOX Care" className="w-full object-contain" />
+            </span>
             <p className="mt-5 max-w-sm text-sm leading-6 text-background/60">Building technology that helps people sound like themselves again.</p>
           </div>
           <div className="space-y-3 text-sm">
