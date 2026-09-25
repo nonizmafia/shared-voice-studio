@@ -12,7 +12,7 @@ import journey4 from "@/assets/patient-journey-4.jpg.asset.json";
 import journey5 from "@/assets/patient-journey-5.jpg.asset.json";
 import journey6 from "@/assets/patient-journey-6.jpg.asset.json";
 import tanjaImage from "@/assets/tanja-before-after.png.asset.json";
-import logo from "@/assets/vox-care-logo-cropped-2026.png.asset.json";
+import logo from "@/assets/vox-care-logo-final-2026.png.asset.json";
 import deviceImage from "@/assets/vox-rd-prototype.png.asset.json";
 import heroImage from "@/assets/vox-hero-clinical.png.asset.json";
 import { Button } from "@/components/ui/button";
@@ -145,7 +145,7 @@ function Index() {
       <header className="sticky top-0 z-50 border-b border-border/80 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
           <a href="#top" aria-label="VOX Care home" className="block">
-            <span className="flex h-14 w-44 items-center overflow-hidden bg-ink px-2 sm:w-52">
+            <span className="flex h-14 w-44 items-center overflow-hidden sm:w-52">
               <img src={logo.url} alt="VOX Care" className="w-full object-contain" />
             </span>
           </a>
