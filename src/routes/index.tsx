@@ -381,6 +381,7 @@ function Index() {
           </div>
           <div className="space-y-3 text-sm">
             <a href="mailto:voxhealthcaree@gmail.com" className="flex items-center gap-2 text-background/80 transition-colors hover:text-cyan"><Mail className="size-4" /> voxhealthcaree@gmail.com</a>
+            <a href="https://whatsapp.com/channel/0029Vb8qCJkFHWpy9tPbTS0f" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-background/80 transition-colors hover:text-cyan">Join our WhatsApp channel <ArrowUpRight className="size-4" /></a>
             <a href="https://linkedin.com/in/yash-kesharwani-506340316" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-background/80 transition-colors hover:text-cyan">LinkedIn <ArrowUpRight className="size-4" /></a>
           </div>
         </div>
