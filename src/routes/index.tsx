@@ -166,7 +166,7 @@ function Index() {
             <img src={heroImage.url} alt="A doctor examining a patient’s throat" className="absolute inset-0 h-full w-full object-cover object-center" />
             <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/35 to-transparent" />
             <div className="relative z-10 flex min-h-[calc(100svh-7rem)] flex-col justify-end px-5 pb-7 pt-32 sm:min-h-[760px] sm:px-12 sm:pb-12 lg:px-16">
-              <p className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-cyan animate-rise">VOX Care · Non-profit voice restoration initiative</p>
+              <p className="mb-4 text-xs font-bold uppercase tracking-[0.18em] text-background drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)] [font-family:var(--font-display)] sm:text-sm animate-rise">VOX Care · Non-profit voice restoration initiative</p>
               <div className="grid items-end gap-8 lg:grid-cols-[1.25fr_0.75fr]">
                 <div className="max-w-4xl animate-rise [animation-delay:100ms]">
                   <h1 className="text-balance text-[2.7rem] font-extrabold leading-[1.02] text-background sm:text-7xl lg:text-[6.5rem]">
