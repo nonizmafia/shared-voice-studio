@@ -374,7 +374,7 @@ function Index() {
       <footer className="bg-ink py-14 text-background">
         <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 sm:px-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <span className="flex h-14 w-52 items-center overflow-hidden">
+            <span className="flex h-14 w-52 items-center overflow-hidden rounded-md bg-background px-3 py-2">
               <img src={logo.url} alt="VOX Care" className="w-full object-contain" />
             </span>
             <p className="mt-5 max-w-sm text-sm leading-6 text-background/60">Building technology that helps people sound like themselves again.</p>
