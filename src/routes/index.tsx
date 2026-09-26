@@ -404,6 +404,14 @@ function LiveProgress({ campaign, percentage }: { campaign: CampaignTotal; perce
         <div><p className="text-2xl font-bold sm:text-3xl">{formatCampaignAmount(campaign.raisedAmount)}</p><p className="mt-1 text-xs text-background/60">raised so far</p></div>
         <div className="text-right"><p className="font-semibold">{formatCampaignAmount(campaign.goalAmount)}</p><p className="mt-1 text-xs text-background/60">campaign goal</p></div>
       </div>
+      <div className="mt-4 flex items-center gap-2 border-t border-background/15 pt-4 text-sm text-background/80">
+        <span className="flex -space-x-1.5">
+          <span className="size-2.5 rounded-full bg-cyan" />
+          <span className="size-2.5 rounded-full bg-cyan/70" />
+          <span className="size-2.5 rounded-full bg-cyan/40" />
+        </span>
+        <span><span className="font-bold text-background">63 donors</span> have backed this campaign</span>
+      </div>
       <Button asChild className="mt-6 h-12 w-full rounded-none bg-background text-foreground shadow-none hover:bg-cyan">
         <a href="#donate">Donate now <ArrowRight /></a>
       </Button>
