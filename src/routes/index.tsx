@@ -211,7 +211,7 @@ function Index() {
                     loading="lazy"
                   />
                   <figcaption className="absolute left-4 top-4 bg-ink px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-cyan">
-                    R&amp;D prototype · Not yet a medical product
+                    R&amp;D PROTOTYPE · ON DEVELOPMENT&nbsp;
                   </figcaption>
                 </div>
               </figure>
