@@ -251,7 +251,6 @@ function Index() {
               <p>She still feels self-conscious in public. People sometimes stare or ask insensitive questions. Some days her voice does not work properly; the skin around her stoma can be sore, her valve may leak, or reflux makes speaking harder.</p>
               <p className="border-l-2 border-cyan pl-5 text-xl font-semibold text-background">“Four years on, I&apos;m still learning to love my voice. I&apos;m also just really loving living my life. Life is too short not to, and life is for living.”</p>
               <div className="flex flex-wrap items-center gap-4 pt-4">
-                <Link to="/stories/tanja-clara" className="text-sm font-semibold text-cyan underline-offset-4 hover:underline">Read &amp; share Tanja&apos;s story →</Link>
                 <Link to="/share-your-story" className="text-sm font-semibold text-background/80 underline-offset-4 hover:underline">Are you a patient? Share your story →</Link>
               </div>
             </div>
