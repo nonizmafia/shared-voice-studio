@@ -251,7 +251,6 @@ function Index() {
               <p>She still feels self-conscious in public. People sometimes stare or ask insensitive questions. Some days her voice does not work properly; the skin around her stoma can be sore, her valve may leak, or reflux makes speaking harder.</p>
               <p className="border-l-2 border-cyan pl-5 text-xl font-semibold text-background">“Four years on, I&apos;m still learning to love my voice. I&apos;m also just really loving living my life. Life is too short not to, and life is for living.”</p>
               <div className="flex flex-wrap items-center gap-4 pt-4">
-                <Link to="/stories/tanja-clara" className="text-sm font-semibold text-cyan underline-offset-4 hover:underline">Read &amp; share Tanja&apos;s story →</Link>
                 <Link to="/share-your-story" className="text-sm font-semibold text-background/80 underline-offset-4 hover:underline">Are you a patient? Share your story →</Link>
               </div>
             </div>
@@ -403,6 +402,14 @@ function LiveProgress({ campaign, percentage }: { campaign: CampaignTotal; perce
       <div className="flex items-end justify-between gap-4">
         <div><p className="text-2xl font-bold sm:text-3xl">{formatCampaignAmount(campaign.raisedAmount)}</p><p className="mt-1 text-xs text-background/60">raised so far</p></div>
         <div className="text-right"><p className="font-semibold">{formatCampaignAmount(campaign.goalAmount)}</p><p className="mt-1 text-xs text-background/60">campaign goal</p></div>
+      </div>
+      <div className="mt-4 flex items-center gap-2 border-t border-background/15 pt-4 text-sm text-background/80">
+        <span className="flex -space-x-1.5">
+          <span className="size-2.5 rounded-full bg-cyan" />
+          <span className="size-2.5 rounded-full bg-cyan/70" />
+          <span className="size-2.5 rounded-full bg-cyan/40" />
+        </span>
+        <span><span className="font-bold text-background">63 donors</span> have backed this campaign</span>
       </div>
       <Button asChild className="mt-6 h-12 w-full rounded-none bg-background text-foreground shadow-none hover:bg-cyan">
         <a href="#donate">Donate now <ArrowRight /></a>
