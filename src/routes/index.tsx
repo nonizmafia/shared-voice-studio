@@ -229,7 +229,7 @@ function Index() {
                   <p className="mt-3 text-sm leading-6 text-background/60">Funds support hardware refinement, voice technology, safety work and supervised testing. The device remains under active research and development.</p>
                 </div>
                 <Button asChild className="mt-8 h-12 rounded-none bg-cyan px-6 text-ink shadow-none hover:bg-background">
-                  <a href="#donate">Support this projects <ArrowRight /></a>
+                  <a href="#donate">Support this project <ArrowRight /></a>
                 </Button>
               </div>
             </div>
