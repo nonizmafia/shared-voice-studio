@@ -288,8 +288,8 @@ function Index() {
           <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[0.65fr_1.35fr] lg:items-center">
             <div>
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.18em] text-primary">Patient perspective</p>
-              <h2 className="text-4xl font-bold leading-tight sm:text-6xl">Hear their story.</h2>
-              <p className="mt-5 max-w-md text-base leading-7 text-muted-foreground">Tanja shares what life is really like after losing her voice. Listen closely — the robotic sound you hear in the video is the voice today&apos;s devices give people. That mechanical voice is exactly the problem VOX exists to solve.</p>
+              <h2 className="text-4xl font-bold leading-tight sm:text-6xl">The sound of a lost voice </h2>
+              <p className="mt-5 max-w-md text-base leading-7 text-muted-foreground">A patient shares her experience of life after cancer and losing her natural voice.<br />The mechanical voice you hear is an example of how speech can sound after losing the natural voice. VOX is being developed to make that voice clearer and more natural.<br />.</p>
             </div>
             <div className="overflow-hidden rounded-[4px] bg-ink shadow-float">
               <iframe className="aspect-video w-full" src="https://www.youtube-nocookie.com/embed/OGynMqAUHiY" title="Patient story about life after cancer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
