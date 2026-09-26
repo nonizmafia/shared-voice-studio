@@ -300,7 +300,7 @@ function Index() {
         <section id="donate" className="scroll-mt-20 bg-primary py-24 text-primary-foreground sm:py-32">
           <div className="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-[0.8fr_1.2fr]">
             <div>
-              <p className="mb-5 text-xs font-bold uppercase tracking-[0.18em] text-primary-foreground/70">Fund the next voice</p>
+              <p className="mb-5 text-xs font-bold uppercase tracking-[0.18em] text-primary-foreground/70">SUPPORT THE PROJECT</p>
               <h2 className="max-w-lg text-5xl font-bold leading-[1.03] sm:text-7xl">Choose an amount.</h2>
               <p className="mt-6 max-w-md text-lg leading-8 text-primary-foreground/80">Every donation goes directly toward R&amp;D and testing.</p>
             </div>
